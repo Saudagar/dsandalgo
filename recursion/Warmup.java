@@ -8,9 +8,21 @@ public class Warmup {
 
        // int val = fun (16);
         //System.out.println("val - " + val);
-        print1ToN(5);
-        
+        //print1ToN(5);
+        System.out.println("------------------------");
+        System.out.println(fib (9));
     }
+
+
+
+    private static int  fib(int i) {
+        if(i <=1 ) return i;
+        
+       // System.out.println("{" + (i-1) + "," + (i-2) + "}");
+        return fib(i-1) + fib(i -2);
+    }
+
+
 
     static void print1ToN(int n) {
 
