@@ -21,8 +21,9 @@ public class Palindrome {
 
         if (string.length() == 0 || string.length() == 1) return true;
 
-        System.out.println( "Now the String {" + string + "} and the start index is at " + start + " end is at " + end );
+        //System.out.println( "Now the String {" + string + "} and the start index is at " + start + " end is at " + end );
 
+        //base case
         if (start >= end ) return true;
 
        
